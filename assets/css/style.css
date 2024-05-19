@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+}
+
+main{
+ border:5px solid #ff009d;
+ border-radius: 20px;
+ margin-left: 10px;
+ margin-right: 10px ;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+p{
+    margin: 20px;
+}
+
+h1{
+    font-size: 2em;
+    margin-top:20px;
+}
+
+#titulo{
+    color: #ff009d;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 40px;
+    width: 200px;
+}
+
+#anime-input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ff009d;
+    margin-bottom: 10px;
+    width: 200px;
+    color: white   
+}
+
+.botao{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff009d;
+    border: 20px;
+    border-radius: 10px;
+    background: #ff009d;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000
+
+}
+
+.anime-img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.anime-gif{
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    main{
+        margin-left: 40px;
+        margin-right: 40px ;
+       }
+}
+
+@media (min-width: 1024px){
+    main{
+        margin-left: 200px;
+        margin-right: 200px ;
+    }
+
+    .anime-gif{
+        width: 400px;
+        height: 300px;
+    }
+}
+
